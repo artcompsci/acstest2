@@ -142,3 +142,31 @@ acscode:
 	$(MAKE) -C treecode acscode
 	$(MAKE) -C vision acscode
 	$(MAKE) -C visualization acscode
+scripts:
+	$(MAKE) -C acs_data_format scripts
+	$(MAKE) -C binary_trees scripts
+	$(MAKE) -C black_hole_trees scripts
+	$(MAKE) -C block_symmetric scripts
+	$(MAKE) -C code_management scripts
+	$(MAKE) -C command_line scripts
+	$(MAKE) -C command_line_b scripts
+	$(MAKE) -C documentation scripts
+	$(MAKE) -C graphics scripts
+	$(MAKE) -C indiv_timesteps_1 scripts
+	$(MAKE) -C indiv_timesteps_2 scripts
+	$(MAKE) -C indiv_timesteps_3 scripts
+	$(MAKE) -C lab_assistant scripts
+	$(MAKE) -C lab_tools scripts
+	$(MAKE) -C n_body_problem scripts
+	$(MAKE) -C plummer scripts
+	$(MAKE) -C polytropes scripts
+	$(MAKE) -C shared_timesteps scripts
+	$(MAKE) -C speedup scripts
+	$(MAKE) -C two_body_problem_1 scripts
+	$(MAKE) -C two_body_problem_2 scripts
+	$(MAKE) -C runge_kutta scripts
+	$(MAKE) -C symmetric_timesteps scripts
+	$(MAKE) -C symplectic scripts
+	$(MAKE) -C treecode scripts
+	$(MAKE) -C vision scripts
+	$(MAKE) -C visualization scripts

@@ -12,6 +12,7 @@ cleandoc:
 	$(MAKE) -C vol cleandoc
 	$(MAKE) -C pub cleandoc
 acscode:
+	$(MAKE) -C vol scripts
 	$(MAKE) -C vol acscode
 	$(MAKE) -C pub acscode
 tar:
